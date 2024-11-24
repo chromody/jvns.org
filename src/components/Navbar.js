@@ -12,6 +12,7 @@ const NavigationBar = () => {
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About Me</Nav.Link>
+            <Nav.Link as={Link} to="/work">Work</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
